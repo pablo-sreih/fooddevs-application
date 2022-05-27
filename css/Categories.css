@@ -4,7 +4,7 @@
 }
 
 body{
-    padding: 2% 5% 0 5%;
+    
     color: #49111C;
     background-color: #E9DDD4;
 }
@@ -24,6 +24,7 @@ div h3{
 .container{
     display: flex;
     padding-top: 5%;
+    padding: 2% 5% 0 5%;
 }
 
 .Categories_img {
