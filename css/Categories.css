@@ -5,12 +5,16 @@
 
 body{
     padding: 2% 5% 0 5%;
-    color: crimson;
+    color: #49111C;
+    background-color: #E9DDD4;
 }
 
 
 .Categories_title{
     font-family: sans-serif;
+    padding-top: 5%;
+    font-size: 150%;
+    padding-bottom: 1%;
 }
 
 div h3{
@@ -25,10 +29,15 @@ div h3{
 .Categories_img {
     padding-right: 23%;
     text-align: center;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
 }
 
 .Categories_img img{
     border-radius: 10%;
-    
+
+}
+
+.Categories_img h4{
+    padding-top: 5%;
 }
