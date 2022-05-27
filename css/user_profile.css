@@ -42,3 +42,18 @@
     padding-left: 10%;
 }
 
+.box1{
+    color:#49111C;
+    background-color: white;
+    border:0;
+    margin-top: 2%;
+}
+
+.sub{
+    padding-bottom: 70%;
+    font-size: 120%;
+}
+
+.sub:hover{
+    color:grey;
+}
