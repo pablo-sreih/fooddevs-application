@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .header-container{
     display: flex;
     flex-direction: column;
@@ -28,8 +32,39 @@
     font-weight: bold;
     font-family: sans-serif;
     color: white;
+    padding-bottom: 5px;
+}
+
+.header ul li a:hover{
+    border-bottom: 1px solid;
+}
+
+.header ul :nth-child(4){
+    margin-left: 30px;
+}
+
+.sub-header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
 }
 
 .sub-header img{
-    width: 30%;
+    margin-top: 100px;
+    width: 200px;
+}
+
+#search-bar{
+    margin-top: 50px;
+    width: 30em;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+#search-bar:focus::placeholder{
+    opacity: 30%;
+    border: none;
 }
