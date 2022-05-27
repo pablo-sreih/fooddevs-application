@@ -7,6 +7,17 @@ body{
     background: -webkit-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/backgrounds/landing_page.jpg);
 }
 
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 30px;
+    height: 40px;
+}
+
 .header-container{
     display: flex;
     flex-direction: column;
@@ -19,10 +30,10 @@ body{
     align-items: center;
 }
 
-.header img{
+#profile-pic{
     width: 40px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .header ul li a{
