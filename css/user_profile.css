@@ -3,3 +3,57 @@
     padding: 0;
 }
 
+.box, .box1{
+    margin-top: 6%;
+    display:flex;
+    border: 1px solid black;
+    font-size: 150%;
+    margin-left: 5%;
+    color:white;
+    background-color: #49111C;
+    border-radius: 20px;
+    width:90%;
+
+}
+.profile_pic{
+    height:15%;
+    width:25%;
+    text-align: center;
+    padding-top: 2%;
+}
+.profile_pic img{
+    width:50%;
+    border-radius:100px;
+}
+.profile_name{
+    padding-top: 4%;
+    font-size: 140%;
+    font-weight: 700;
+}
+.box-container{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 120%;
+    margin-left: 5%;
+}
+.logo_pic img{
+    width: 80%; 
+    padding-top: 8%;
+    padding-left: 10%;
+}
+
+.box1{
+    color:#49111C;
+    background-color: white;
+    border:0;
+    margin-top: 2%;
+}
+
+.sub{
+    padding-bottom: 70%;
+    font-size: 120%;
+}
+
+.sub:hover{
+    color:grey;
+}
