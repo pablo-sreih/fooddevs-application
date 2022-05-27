@@ -29,4 +29,16 @@
 
 .container{
     text-align: center;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.row img{
+    padding-right: 7%;
 }
