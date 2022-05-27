@@ -17,10 +17,12 @@
 .header-container{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: black;
 }
 .header ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     height: 80px;
     list-style: none;
@@ -126,4 +128,25 @@ h1{
 #text-review:focus{
     outline: crimson;
     box-shadow: 0 0 10px crimson;
+}
+
+#reviews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+#username{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#review{
+    margin-top: 10px;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    /* padding-bottom: 30px; */
 }
