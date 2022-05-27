@@ -15,6 +15,7 @@ body{
     padding-top: 5%;
     font-size: 150%;
     padding-bottom: 1%;
+
 }
 
 div h3{
@@ -25,10 +26,12 @@ div h3{
     display: flex;
     padding-top: 5%;
     padding: 2% 5% 0 5%;
+    justify-content: center;
+    flex-grow: 3;
 }
 
 .Categories_img {
-    padding-right: 23%;
+    padding-right: 10%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 120%;
@@ -41,4 +44,32 @@ div h3{
 
 .Categories_img h4{
     padding-top: 5%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1100px){
+
+    .container{
+
+        flex-direction: column;
+    }
+    .Categories_title, div h3{
+        text-align: center;
+    }
+    .Categories_img img {
+        margin-left: 30%;
+
+    }
+
+    .Categories_img h4{
+        margin-left: 30%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+        
+    
 }
