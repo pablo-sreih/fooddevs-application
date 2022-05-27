@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #E9DDD4;
+}
+
 .box, .box1{
     margin-top: 6%;
     display:flex;
@@ -13,7 +17,7 @@
     background-color: #49111C;
     border-radius: 20px;
     width:90%;
-
+    
 }
 .profile_pic{
     height:15%;
@@ -47,13 +51,35 @@
     background-color: white;
     border:0;
     margin-top: 2%;
+    background-color: #E9DDD4;
+    
+
 }
 
 .sub{
     padding-bottom: 70%;
     font-size: 120%;
+    
+}
+.sub_row img{
+    border-radius: 20px;
 }
 
 .sub:hover{
     color:grey;
+}
+
+.box2{
+    display: flex;
+    
+}
+
+.sub_row{
+    padding-left: 26%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.box3{
+    display: flex;
 }
