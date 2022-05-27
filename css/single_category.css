@@ -2,6 +2,9 @@
     /* margin: 0; */
     padding: 0;
 }
+body{
+    background-color: #E9DDD4;
+}
 
 .sub_category_img_container{
   margin-left: auto;
@@ -39,6 +42,10 @@
     margin-top: 2%;
 }
 
-.row img{
+.sub_row{
     padding-right: 7%;
+}
+
+.sub_row img{
+    border-radius: 20px;
 }
