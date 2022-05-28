@@ -110,3 +110,10 @@ input{
     flex-direction: column;
     margin-left: 50px;
 }
+
+#submit{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
