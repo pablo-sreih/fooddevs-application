@@ -21,9 +21,11 @@ body{
 .header-container{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .header ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     height: 80px;
     list-style: none;
@@ -82,4 +84,11 @@ body{
 
 #search-bar:focus::placeholder{
     opacity: 30%;
+}
+
+@media (max-width: 700px){
+    #search-bar{
+        width: 25em;
+        font-size: 10px;
+    }
 }
