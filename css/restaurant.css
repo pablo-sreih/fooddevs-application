@@ -158,5 +158,20 @@ h2{
     margin-top: 10px;
     inline-size: 250px;
     overflow-wrap: break-word;
-    /* padding-bottom: 30px; */
+}
+
+.rating-container{
+    margin-top: 20px;
+
+}
+
+#rating{
+    margin-left: 50px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:20px;
 }
