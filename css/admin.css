@@ -70,3 +70,37 @@ input{
 .container{
     margin-top: 30px;
 }
+
+#review-container{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 30%;
+    border: 2px black solid;
+}
+
+#username{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#accept{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#decline{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
