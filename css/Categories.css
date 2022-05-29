@@ -1,11 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body{
-    color: #49111C;
-    background-color: #E9DDD4;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../assets/images/backgrounds/landing_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .header{
@@ -63,23 +66,29 @@ body{
     padding-top: 5%;
     font-size: 150%;
     padding-bottom: 1%;
-
+    color: white;
 }
 
 div h3{
-    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 2px white solid;
+}
+
+h4{
+    color: white;
 }
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     padding-top: 5%;
-    padding: 2% 5% 0 5%;
-    justify-content: center;
-    flex-grow: 3;
+    gap: 30px;
+    justify-content: space-evenly;
 }
 
 .Categories_img {
-    padding-right: 10%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 120%;
@@ -87,7 +96,9 @@ div h3{
 
 .Categories_img img{
     border-radius: 10%;
-
+    border: 2px solid white;
+    box-shadow: 0 0 20px white;
+    cursor: pointer;
 }
 
 .Categories_img h4{
@@ -97,27 +108,15 @@ div h3{
 .title{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
 @media (max-width:1100px){
 
     .container{
-
         flex-direction: column;
     }
     .Categories_title, div h3{
         text-align: center;
     }
-    .Categories_img img {
-        margin-left: 30%;
-
-    }
-
-    .Categories_img h4{
-        margin-left: 30%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-    }
-        
-    
 }
