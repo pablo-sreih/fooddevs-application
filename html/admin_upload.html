@@ -32,26 +32,23 @@
         <br><br>
         <label for="location">Location:</label>
         <input id="location" type="text">
+        <br><br>
+        <label for="average_cost">Average Cost:</label>
+        <input id="average_cost" type="text">
     </div>
 
     <div class="container">
         <label for="logo">Restaurant Logo:</label>
         <input id="logo" type="file" accept="image/*">
         <br/>
-        <form action="upload.php" method="POST" enctype="multipart/form-data">
-            <input type="file" id="myFile" name="file">
-            <button type="submit" name="submit">Upload File</button>
-          </form>
+        <label for="pictures">Restaurant Pictures:</label>
+        <input id="pictures" type="file" accept="image/*">
         <br/><br>
         <label for="menu">Restaurant Menu:</label>
         <input id="menu" type="file" accept="image/*">
-        
     </div>
 
-    <button id="submit" class="submit">submit</button>
-    
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="../js/admin_upload.js" type="text/javascript"></script>
+    <button id="submit" type="submit">Submit</button>
 
 </body>
 </html>
