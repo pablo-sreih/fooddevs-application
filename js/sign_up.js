@@ -16,7 +16,7 @@ function echo(){
             })
             .then(function (response) {
                 console.log(response);
-                console.log(data)
+                location.reload();
                 }
             )}
 
