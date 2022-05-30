@@ -11,7 +11,7 @@ body{
 .main-container{
     display: flex;
     justify-content: flex-end;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-right: 15%;
 }
 
