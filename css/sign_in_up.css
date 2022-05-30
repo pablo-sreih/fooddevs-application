@@ -26,7 +26,7 @@ body{
 }
 
 .child-container img{
-    width: 250px;
+    width: 350px;
 }
 
 #box{
@@ -38,7 +38,7 @@ body{
     padding: 15px;
     gap: 10px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .textbox{
@@ -47,6 +47,7 @@ body{
     width: 250px;
     border-radius: 10px;
     border: none;
+    background-color: rgb(233, 233, 233);
 }
 
 .textbox:focus{
@@ -80,7 +81,7 @@ body{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: crimson;
 }
 
 #box a:hover{
