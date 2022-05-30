@@ -146,7 +146,8 @@ h2{
 }
 
 #text-review{
-    margin-top: 30px;
+    width: 430px;
+    margin-top: 10px;
     margin-left: 50px;
     resize: none;
     font-size: 14px;
@@ -165,6 +166,7 @@ h2{
     flex-wrap: wrap;
     gap: 40px;
     margin-left: 50px;
+    margin-right: 50px;
     font-family: sans-serif;
 }
 
@@ -176,7 +178,7 @@ h2{
 
 #review{
     margin-top: 10px;
-    inline-size: 250px;
+    inline-size: 450px;
     overflow-wrap: break-word;
 }
 
@@ -194,6 +196,15 @@ h2{
     font-family: sans-serif;
     font-weight: bold;
     font-size:20px;
+}
+
+.user-rating{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 50px;
+    color: crimson;
 }
 
 @media (max-width: 500px){
@@ -216,4 +227,12 @@ h2{
     h1{
         margin-left: 0;
     }
-}
+
+    #text-review{
+        width: auto;
+    }
+
+    #review{
+        inline-size: auto;
+    }
+}   
