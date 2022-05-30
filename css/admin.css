@@ -79,7 +79,14 @@ input{
     width: 30%;
     border: 2px black solid;
 }
-
+#foo{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 30%;
+    border: 2px black solid;
+}
 #username{
     font-weight: bold;
     margin-bottom: 10px;
