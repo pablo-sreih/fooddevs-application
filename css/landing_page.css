@@ -62,8 +62,8 @@ body{
 }
 
 .sub-header img{
-    margin-top: 150px;
-    width: 200px;
+    margin-top: 100px;
+    width: 400px;
 }
 
 #search-bar{
@@ -90,5 +90,9 @@ body{
     #search-bar{
         width: 25em;
         font-size: 10px;
+    }
+
+    .sub-header img{
+        width: 250px;
     }
 }
