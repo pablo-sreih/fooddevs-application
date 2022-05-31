@@ -5,7 +5,7 @@ var id = 0;
 document.getElementById("btn").addEventListener('click', echo);
 function echo(){
     let data = new FormData();
-    data.append('id', id);
+    data.append('user_id', id);
     data.append('email', email.value);
     data.append('password', password.value);
 
