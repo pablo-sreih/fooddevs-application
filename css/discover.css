@@ -4,11 +4,6 @@
     font-family: sans-serif;
 }
 
-body{
-    /* background: -webkit-linear-gradient(left, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../assets/images/backgrounds/landing_page.jpg); */
-    /* background-repeat: no-repeat; */
-}
-
 .header{
     display: flex;
     justify-content:space-between;
