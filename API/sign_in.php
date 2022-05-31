@@ -13,9 +13,9 @@ $query->bind_result($id);
 $query->fetch();
 $response = [];
 if($num_rows == 0){
-    $response["response"] = "User Not Found";
+    $response["response"] = false;
 }else{
-    $response["response"] = "Logged in";
+    $response["response"] = true;
     $response["user_id"] = $id;
 }
 echo json_encode($response);

@@ -15,7 +15,11 @@ function echo(){
         data: data,
     })
     .then(function (response) {
-        console.log(response);
-        location.reload();
+        if(response.data["response"]){
+            document.location = "./html/landing_page.html";
+        } else {
+            alert("User Not Found");
+            location.reload();
+        }
     })
 }
