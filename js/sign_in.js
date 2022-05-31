@@ -18,5 +18,4 @@ function echo(){
         console.log(response);
         location.reload();
     })
-
 }
